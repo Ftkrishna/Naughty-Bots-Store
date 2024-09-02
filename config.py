@@ -18,8 +18,8 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("24440741", ""))
-API_HASH = environ.get("eda231ff278ef43dc36164de83ee8fd6", "")
+API_ID = int(environ.get("API_ID", "24440741"))
+API_HASH = environ.get("API_HASH", "eda231ff278ef43dc36164de83ee8fd6")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/NaughtyX11-09-02')).split() # Bot Start Picture
@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("mongodb+srv://megadiwani:gnTnDjCx1jB9W9hg@cluster0.ak69r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://megadiwani:gnTnDjCx1jB9W9hg@cluster0.ak69r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "megadiwani")
 
 # Auto Delete Information
