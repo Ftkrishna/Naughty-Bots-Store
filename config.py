@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "eda231ff278ef43dc36164de83ee8fd6")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/NaughtyX11-09-02')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1833463223').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6307223516').split()]
 BOT_USERNAME = environ.get("NaughtyX11bot", "") # without @
 PORT = environ.get("PORT", "8080")
 
